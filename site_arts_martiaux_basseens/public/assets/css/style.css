@@ -1,0 +1,136 @@
+.navbar{
+    background-color:  #182c39;
+} 
+section{
+    background-color: #10222e;
+
+}
+header .container{
+    background-color: #10222e;
+    color: #F5F6CE;
+    font-size: 35px;
+    
+}
+#title {
+    margin-left: 20px ;
+}
+
+main {
+    height: 700px;	
+    background: url('../images/coryking-martial-artist-697221-o_flou.jpg') no-repeat;
+    display: block;
+    background-size: cover;
+}
+
+main .row {
+    text-align: center;
+}
+
+button {
+    background-color:  #F5F6CE;
+    margin-right: 100px;
+}
+#myNavbar a:hover{
+    background-color: #182c39;
+    color: #F5F6CE !important;
+    opacity:1 !important;
+}
+
+#myFooter {
+    background-color: #182c39;
+    color: white;
+    padding-top: 10px;
+}
+
+#myFooter .row{
+    text-align: center;
+}
+
+#myFooter .footer-copyright {
+    background-color: #10222e;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .container {
+    width: auto;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+
+    text-decoration: none;
+}
+
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: yellow;
+}
+
+
+#myFooter .fa {
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: white;
+    color: #182c39;
+    border-radius: 51%;
+    padding: 10px;
+    text-align: center;
+    line-height: 10px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+#myFooter .fa-facebook:hover .fa-user:hover{
+    color: #2b55ff;
+
+}
+
+#myFooter .fa-facebook:focus .fa-user:focus {
+    color: #2b55ff;
+}
+#myFooter #menu,
+.card-text {
+    font-size: 15px;
+}
+footer .card {
+    background-color: #10222e;
+    color: #F5F6CE;
+}
+
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+    #myFooter .row {
+        margin: 0;
+    }
+}
+
+html{
+    height: auto;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
